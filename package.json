@@ -1,0 +1,15 @@
+{
+  "name": "instagram-scraper",
+  "version": "1.0.0",
+  "description": "Instagram Reels Audio Trend Tracker",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js",
+    "continuous": "node scrape.js --continuous"
+  },
+  "dependencies": {
+    "playwright": "1.61.1",
+    "dotenv": "^16.4.7",
+    "groq-sdk": "^1.3.0"
+  }
+}

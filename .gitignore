@@ -1,0 +1,51 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Browser profiles and session data
+ig-profile/
+ig-session/
+profile/
+session/
+cookies.json
+session-cookies.json
+ig_session.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files and caches
+.heartbeat
+shazam_temp/
+temp_audio/
+tmp_shazam/
+*.cache.json
+*_cache.json
+*_db.json
+*_results.json
+*_report.json
+captured_request.json
+duplicate_audio_review.json
+duplicate_review_queue.json
+graphql_comment_response.json
+telegram_sent_db.json
+youtube_cache.json
+
+# Debugging
+debug_screenshot.png
+debug.html
+
+# OS generated files
+.DS_Store
+Thumbs.db

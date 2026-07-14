@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  scraper:
+    build:
+      context: .
+      args:
+        - PLAYWRIGHT_VERSION=1.61.1
+    container_name: ig-scraper
+    restart: always
+    ports:
+      - "6080:6080"
+    env_file:
+      - .env
+    environment:
+      - HEADLESS=${HEADLESS:-true}
+    volumes:
+      # Use a named volume for high-performance data persistence
+      - scraper_data:/app
+      # Prevent host node_modules from overriding container node_modules
+      - /app/node_modules
+    healthcheck:
+      test: ["CMD-SHELL", "find /app/.heartbeat -mmin -150"]
+      interval: 5m
+      timeout: 30s
+      retries: 3
+      start_period: 10m
+
+volumes:
+  scraper_data:

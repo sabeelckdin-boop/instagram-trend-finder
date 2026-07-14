@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+
+# Node
+node_modules
+npm-debug.log
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Profiles and Sessions
+ig-profile/
+profile/
+session/
+ig-session/
+
+# Temporary and Cache folders
+tmp_shazam/
+shazam_temp/
+temp_audio/
+logs/
+
+# Data and Cache files (JSON)
+# Most .json files in this project are caches or databases
+*.json
+!package.json
+!package-lock.json
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Secrets
+.env

@@ -1,2 +1,0 @@
-# instagram-trend-finder
-insta
