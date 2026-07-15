@@ -10,7 +10,7 @@ jspm_packages/
 .env.production.local
 
 # Browser profiles and session data
-ig-profile/
+
 ig-session/
 profile/
 session/

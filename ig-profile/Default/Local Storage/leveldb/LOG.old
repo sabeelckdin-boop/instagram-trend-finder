@@ -1,0 +1,10 @@
+2026/07/14-12:33:29.490 57 Reusing MANIFEST /app/ig-profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/07/14-12:33:29.565 57 Recovering log #253
+2026/07/14-12:33:29.573 57 Level-0 table #256: started
+2026/07/14-12:33:29.599 57 Level-0 table #256: 16215 bytes OK
+2026/07/14-12:33:29.603 57 Recovering log #256
+2026/07/14-12:33:29.623 57 Reusing old log /app/ig-profile/Default/Local Storage/leveldb/000256.log 
+2026/07/14-12:33:29.690 57 Delete type=0 #253
+2026/07/14-12:33:46.883 5b Level-0 table #258: started
+2026/07/14-12:33:46.903 5b Level-0 table #258: 17876 bytes OK
+2026/07/14-12:33:46.932 5b Delete type=0 #256
